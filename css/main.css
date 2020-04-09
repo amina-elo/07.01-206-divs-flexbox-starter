@@ -106,14 +106,15 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
-  background-color:  #f16059;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 .div-1, .div-2, .div-3 {
@@ -121,19 +122,15 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1em;
-  padding: 0 1em 0 1em;
-  margin-left: 0.5em;
-  background-color: #f16059;
-  height: 280px;
+  height: auto;
   display: flex;
-  width: 100%;
+  width: 30%;
+  padding: 0.5em;
+  background-color:  #f16059;
   justify-content: center;
   align-items: center;
 }
 
-.div-1, .div-2{
-  border-right: black solid 2px;
-}
 
 
 /* ==========================================================================
